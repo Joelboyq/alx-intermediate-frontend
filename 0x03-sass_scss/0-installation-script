@@ -1,0 +1,11 @@
+# Create project directory
+mkdir 0x03-sass_scss
+cd 0x03-sass_scss
+
+# Install NVM and Node.js (optional)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+# Exit and reopen terminal
+nvm install 20.16.0
+
+# Install SASS
+npm install sass@3.7.4
